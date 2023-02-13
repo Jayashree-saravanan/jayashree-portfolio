@@ -7,12 +7,13 @@ const Home= ()=>{
     return(
         <div  name="home"
         className="h-screen w-full bg-gradient-to-b from-[#00171F] via-[#00171f] to-[#043d50]">
+
  <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-6xl font-bold text-white">
+          <h3 className="text-4xl sm:text-6xl font-italic text-white">
             <span>Hai!</span><br></br>
-             <span>I'm Jayashree Saravanan, a Front-end Developer who like to create beautiful and performant products with delightful user experiences </span>
-          </h2>
+             <span>I'm Fidel Castro, a Front-end Developer who like to create beautiful and performant products with delightful user experiences </span>
+          </h3>
           <p className="text-gray-500 py-4 max-w-md">
             {/* Never compare yourself with others... */}
           </p>
