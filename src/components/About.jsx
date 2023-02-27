@@ -3,8 +3,7 @@ const About=()=>{
     return(
 <div
       name="about"
-      // bg-gradient-to-b from-[#00171F] via-[#00171f] to-[#043d50]
-      className="w-full h-screen bg-[#00171F] text-white"
+      className="w-full h-screen bg-[#190205] text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -17,7 +16,7 @@ const About=()=>{
           <br /> <br />
           <p className="text-xl">
             I have experience building and designing Front-end applications
-            using JavaScript,css3,Bootstrap,Tailwind and React . My goal to future is to leverage
+            using JavaScript,css3,Bootstrap,Tailwind and React. My goal to future is to leverage
             my experience in programming and to have something useful to leave behind.
              
           </p>

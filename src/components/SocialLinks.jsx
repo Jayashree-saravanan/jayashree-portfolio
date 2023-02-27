@@ -14,7 +14,8 @@ const SocialLinks = () => {
                 </>
             ),
             href:'https://www.linkedin.com/in/jayashree-1994/',
-            style: 'rounded-tr-md'
+            style: 'rounded-tr-md '
+            
         },
         {
             id: 2,
@@ -48,13 +49,13 @@ const SocialLinks = () => {
      
     ]
     return (
-        <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
+        <div className='hidden lg:flex flex-col top-[35%] left-0 fixed  style:shadow-orange-500'>
             <ul>
                 {
                     links.map(({id, child, href, style, download}) => (
                         <li 
                         key={id} 
-                        className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-[#ffb703]" +
+                        className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-[#190205]  " +
                         " " +
                         style}>
                         <a href={href}
