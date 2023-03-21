@@ -13,31 +13,24 @@ const Portfolio = () => {
       name: 'Movie App',
       src: Movieapp,
       tech: 'Tech:HTML,CSS,ReactJs',
-      ghLink: 'https://github.com/ShRee24Js/Movie-app'
+      ghLink: 'https://github.com/Jayashree-saravanan/Movie-app'
     },
     {
       id: 2,
       name: 'Newyear countdown',
       src: Newyear,
       tech: 'Tech: JavaScript,Oops,HTML,Css. ',
-      ghLink: 'https://github.com/ShRee24Js/newyear_js'
+      ghLink: 'https://github.com/Jayashree-saravanan/newyear_js'
     },
     {
       id: 3,
       name: 'Scenic App',
       src: Scenic,
       tech: 'Tech: HTML,CSS,ReactJs ',
-      ghLink: 'https://github.com/ShRee24Js/Scenic-app'
+      ghLink: 'https://github.com/Jayashree-saravanan/Scenic-app'
     },
-    // {
-    //   id: 4,
-    //   name: 'Calculator',
-    //   src: musicon,
-    //   tech: 'Tech: Html,Css,Js',
-    //   ghLink: 'https://github.com/ShRee24Js/Calculator'
-    // }
-   
-   
+
+  
   ]
   return (
     <div name='portfolio' className='bg-[#190205] w-full pb-5 text-white md:h-fit  '>
